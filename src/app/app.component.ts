@@ -34,15 +34,16 @@ const COUNTRIES: Country[] = [
   }
 ];
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  // styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'Bootstrap';
 }
 export class NgbdTableBasic {
 
-  countries = COUNTRIES;
+  countries = COUNTRIES ;
 }
