@@ -7,8 +7,8 @@
             <th scope="col">Population</th>
         </tr>
     </thead>
-    <!-- <tbody>
-        <tr *ngFor="let country of Countries; index as i">
+    <tbody>
+        <tr *ngFor="let country of countries; index as i">
             <th scope="row">{{ i + 1 }}</th>
             <td>
                 <img [src]="'https://upload.wikimedia.org/wikipedia/commons/' + country.flag" class="mr-2"
@@ -18,5 +18,5 @@
             <td>{{ country.area | number }}</td>
             <td>{{ country.population | number }}</td>
         </tr>
-    </tbody> -->
+    </tbody>
 </table>

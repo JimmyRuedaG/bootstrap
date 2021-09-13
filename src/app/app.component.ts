@@ -42,8 +42,5 @@ const COUNTRIES: Country[] = [
 })
 export class AppComponent {
   title = 'Bootstrap';
-}
-export class NgbdTableBasic {
-
-  countries = COUNTRIES ;
+  countries = COUNTRIES;
 }
